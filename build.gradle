@@ -1,19 +1,51 @@
 plugins {
-    id 'java'
+    id 'idea'
+    id 'java-library'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
 }
+
+apply plugin: 'org.openjfx.javafxplugin'
 
 group 'com.github.TaviotBaptiste'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven{
+        url = 'https://jitpack.io/'
+        name ='JitPack'
+    }
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'de.jensd:fontawesomefx-fontawesome:4.7.0-9.1.2'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'fr.flowarg:flowmultitools:1.4.0'
+    implementation 'fr.flowarg.flowupdater:1.7.4'
+    implementation 'fr.flowarg.openlauncherlib:3.+'
 }
 
-test {
-    useJUnitPlatform()
+javafx{
+    version = 18
+    modules = ['javafx.controls']
+}
+
+application {
+    getMainClass().set('com.github.TaviotBaptiste.Main')
+}
+
+compileJava{
+    options.encoding = "UTF-8"
+}
+
+jar{
+    manifest {
+        manifest.attributes.put('Main-Class', 'com.github.TaviotBaptiste.Main')
+    }
+    from{
+        configurations.compileClasspath.collect{
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
 }
