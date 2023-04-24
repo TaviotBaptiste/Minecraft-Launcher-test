@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<?import java.net.URL?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.github.taviotbaptiste.launcher.LauncherController"
-            styleClass="anchor">
-    <stylesheets>
-        <Button text="Jouer" onAction="#onPlayButtonClick"/>
-    </stylesheets>
+            styleClass="anchor"
+prefWidth="500"
+prefHeight="500">
+
+    <HBox alignment="TOP_CENTER" prefWidth="500">
+        <Button text="a" alignment="TOP_CENTER"  onAction="#onPlayButtonClick"/>
+
+        <Label alignment="CENTER"  fx:id="playText">TEE?FNDKSNFKSNFKESNF</Label>
+
+
+    </HBox>
 
 
 
