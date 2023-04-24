@@ -6,7 +6,7 @@
   <!-- <a href="https://tpoo700lyo_17.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Minecraft launcher test</h1>
+<h1 align="center">Minecraft launcher (Java/JavaFx)</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/TaviotBaptiste/Minecraft-Launcher-test?color=56BEB8">
@@ -46,9 +46,10 @@
 
 ## :dart: About ##
 
-Just some test for a Minecraft launcher. Development time : 0,5 days.
+Just some test for a Minecraft launcher. 
 
-Source : [HERE](https://www.youtube.com/watch?v=h1J7lJs--L8&ab_channel=Bricklou)
+Project from scratch
+
 
 ## :sparkles: Features ##
 
@@ -58,15 +59,16 @@ Source : [HERE](https://www.youtube.com/watch?v=h1J7lJs--L8&ab_channel=Bricklou)
 
 The following tools were used in this project:
 
-- [Java 18](https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html)
-- [Gradle 7.5.1](https://gradle.org/)
-- Some library like JavaFX or customs ..
+- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Gradle 7.6](https://gradle.org/)
+- [JavaFx](https://openjfx.io/)
+- Some library or customs ..
 
 
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have Java 18](https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html), and a IDE like [IntelliJ](https://www.jetbrains.com/fr-fr/idea/) installed.
+Before starting :checkered_flag:, you need to have Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html), and a IDE like [IntelliJ](https://www.jetbrains.com/fr-fr/idea/) installed.
 
 ## :checkered_flag: Starting ##
 
