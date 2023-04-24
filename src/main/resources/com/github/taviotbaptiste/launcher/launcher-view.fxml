@@ -6,11 +6,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import java.net.URL?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.github.taviotbaptiste.launcher.LauncherController">
+            fx:controller="com.github.taviotbaptiste.launcher.LauncherController"
+            styleClass="anchor">
+    <stylesheets>
+        <Button text="Jouer" onAction="#onPlayButtonClick"/>
+    </stylesheets>
 
 
-            <Button text="Jouer" onAction="#onPlayButtonClick"/>
 
 </AnchorPane>

@@ -1,3 +1,6 @@
 .idea
 .gradle
 build
+
+#Remove all pictures on the repo
+src/main/resources/com/github/taviotbaptiste/launcher/pictures/
