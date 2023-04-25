@@ -10,10 +10,21 @@
             fx:controller="com.github.taviotbaptiste.launcher.LauncherController"
             styleClass="anchor" prefWidth="500" prefHeight="500">
 
-    <HBox layoutX="10" layoutY="250">
+
+    <HBox layoutY="10" layoutX="450"  prefWidth="500">
+        <Button fx:id="closeButton" prefWidth="30" prefHeight="30" onAction="#onCloseButtonClick">
+            <graphic>
+                <ImageView fitWidth="30.0" fitHeight="30.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@pictures/close.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+    </HBox>
+
+    <HBox layoutX="40" layoutY="250">
         <TextField fx:id="username" prefHeight="45" prefWidth="260"/>
     </HBox>
-    <HBox layoutX="10" layoutY="310">
+    <HBox layoutX="40" layoutY="310">
         <TextField fx:id="password" prefHeight="45" prefWidth="260"/>
     </HBox>
     <HBox layoutY="380" styleClass="" alignment="BOTTOM_CENTER" prefWidth="500">
