@@ -46,9 +46,9 @@ Just some test for a Minecraft launcher. Project from scratch
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Design of the launcher.
-:heavy_check_mark: Check if email or password are empty.
-:heavy_check_mark: Close the launcher with a custom button.
+:heavy_check_mark: Design of the launcher.  
+:heavy_check_mark: Check if email or password are empty.  
+:heavy_check_mark: Close the launcher with a custom button.  
 
 
 
