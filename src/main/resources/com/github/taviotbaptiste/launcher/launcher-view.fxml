@@ -3,21 +3,29 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.github.taviotbaptiste.launcher.LauncherController"
-            styleClass="anchor"
-prefWidth="500"
-prefHeight="500">
+            styleClass="anchor" prefWidth="500" prefHeight="500">
 
-    <HBox alignment="TOP_CENTER" prefWidth="500">
-        <Button text="a" alignment="TOP_CENTER"  onAction="#onPlayButtonClick"/>
-
-        <Label alignment="CENTER"  fx:id="playText">TEE?FNDKSNFKSNFKESNF</Label>
-
-
+    <HBox layoutX="10" layoutY="250">
+        <TextField fx:id="username" prefHeight="45" prefWidth="260"/>
     </HBox>
-
-
-
+    <HBox layoutX="10" layoutY="310">
+        <TextField fx:id="password" prefHeight="45" prefWidth="260"/>
+    </HBox>
+    <HBox layoutY="380" styleClass="" alignment="BOTTOM_CENTER" prefWidth="500">
+        <Label fx:id="playText">J</Label>
+    </HBox>
+    <HBox layoutY="400" alignment="BOTTOM_CENTER" prefWidth="500">
+        <Button fx:id="playButton" prefWidth="240" prefHeight="80" onAction="#onPlayButtonClick">
+            <graphic>
+                <ImageView fitWidth="240.0" fitHeight="80.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@pictures/jouer.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+    </HBox>
 </AnchorPane>
