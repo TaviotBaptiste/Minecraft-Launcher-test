@@ -38,7 +38,9 @@
 ## :dart: About ##
 
 Just some test for a Minecraft launcher. Project from scratch
-![Capture d’écran 2023-04-25 à 14.56.26.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F4z%2Fldwhkszn7l9fv_cs66thpyw80000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_n2CezJ%2FCapture%20d%E2%80%99%C3%A9cran%202023-04-25%20%C3%A0%2014.56.26.png)
+
+<img width="503" alt="Capture d’écran 2023-04-25 à 14 59 06" src="https://user-images.githubusercontent.com/30879857/234283831-904b52d4-d080-4b87-8cd5-bf91293d5877.png">
+
 
 
 
