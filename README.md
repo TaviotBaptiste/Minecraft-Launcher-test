@@ -1,13 +1,4 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Gotham-City" />
-
-  &#xa0;
-
-  <!-- <a href="https://tpoo700lyo_17.netlify.app">Demo</a> -->
-</div>
-
 <h1 align="center">Minecraft launcher (Java/JavaFx)</h1>
-
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/TaviotBaptiste/Minecraft-Launcher-test?color=56BEB8">
 
@@ -46,14 +37,18 @@
 
 ## :dart: About ##
 
-Just some test for a Minecraft launcher. 
+Just some test for a Minecraft launcher. Project from scratch
+![Capture d’écran 2023-04-25 à 14.56.26.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F4z%2Fldwhkszn7l9fv_cs66thpyw80000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_n2CezJ%2FCapture%20d%E2%80%99%C3%A9cran%202023-04-25%20%C3%A0%2014.56.26.png)
 
-Project from scratch
 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: None actually
+:heavy_check_mark: Design of the launcher.
+:heavy_check_mark: Check if email or password are empty.
+:heavy_check_mark: Close the launcher with a custom button.
+
+
 
 ## :rocket: Technologies ##
 
