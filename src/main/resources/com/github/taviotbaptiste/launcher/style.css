@@ -7,3 +7,10 @@
 .center{
     -fx-font-size: 30px;
 }
+
+.errorMessageRed{
+    -fx-background-color: #c5c5c5;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}

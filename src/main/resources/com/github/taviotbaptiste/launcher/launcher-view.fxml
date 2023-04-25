@@ -11,24 +11,26 @@
             styleClass="anchor" prefWidth="500" prefHeight="500">
 
 
-    <HBox layoutY="10" layoutX="450"  prefWidth="500">
-        <Button fx:id="closeButton" prefWidth="30" prefHeight="30" onAction="#onCloseButtonClick">
+    <HBox layoutY="8" layoutX="450"  prefWidth="500">
+        <Button fx:id="closeButton" prefWidth="18" prefHeight="18" onAction="#onCloseButtonClick">
             <graphic>
-                <ImageView fitWidth="30.0" fitHeight="30.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitWidth="18.0" fitHeight="18.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@pictures/close.png"/>
                 </ImageView>
             </graphic>
         </Button>
     </HBox>
 
+    <HBox fx:id="errorbox" prefWidth="500">
+        <Label fx:id="errorMessage" styleClass="errorMessageRed" prefHeight="40" prefWidth="500"/>
+    </HBox>
+
+
     <HBox layoutX="40" layoutY="250">
         <TextField fx:id="username" prefHeight="45" prefWidth="260"/>
     </HBox>
     <HBox layoutX="40" layoutY="310">
         <TextField fx:id="password" prefHeight="45" prefWidth="260"/>
-    </HBox>
-    <HBox layoutY="380" styleClass="" alignment="BOTTOM_CENTER" prefWidth="500">
-        <Label fx:id="playText">J</Label>
     </HBox>
     <HBox layoutY="400" alignment="BOTTOM_CENTER" prefWidth="500">
         <Button fx:id="playButton" prefWidth="240" prefHeight="80" onAction="#onPlayButtonClick">

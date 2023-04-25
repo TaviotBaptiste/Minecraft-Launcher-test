@@ -12,6 +12,7 @@ import java.io.IOException;
 public class MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+
         FXMLLoader root = new FXMLLoader(LauncherController.class.getResource("launcher-view.fxml"));
         Scene scene = new Scene(root.load(), 500, 500);
 
@@ -32,6 +33,7 @@ public class MainApplication extends Application {
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);
 
+
         stage.setScene(scene);
         stage.show();
     }
@@ -39,4 +41,5 @@ public class MainApplication extends Application {
     public static void main(String[] args) {
         launch();
     }
+
 }
